@@ -37,7 +37,7 @@ $app->get('/', 'Controller\IndexController::indexAction')->bind('home');
  * AJAX
  */
 $ajax = $app['controllers_factory'];
-$ajax->match('/tweets', 'Controller\IndexController::doAjax')->bind('do_ajax');
+$ajax->match('/get', 'Controller\IndexController::doAjax')->bind('do_ajax');
 $app->mount('/ajax', $ajax);
 
 
