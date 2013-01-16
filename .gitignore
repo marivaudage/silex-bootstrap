@@ -1,0 +1,6 @@
+vendor/*
+cache/*
+log/*
+composer.lock
+composer.phar
+scripts/application_env.php
